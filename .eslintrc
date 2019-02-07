@@ -6,10 +6,14 @@
       "jsx": true,
       "ecmaVersion": 6,
       "impliedStrict": true
-    }
+    },
+    “arrow-parens”: [2, “as-needed”]
   },
   "rules": {
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "indent": "off",
+    "import/first": "off",
+    "no-tabs": 0
   },
   "env": {
     "browser": true,
