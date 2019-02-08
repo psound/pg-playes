@@ -9,7 +9,7 @@ import Add from './New';
 const App = () => (
   <Router>
     <div>
-      <Route path="/" exact component={Login} />
+      <Route path="/" exact component={Login} /> 
       <Route path="/register/" component={Register} />
       <Route path="/roster/" component={Roster} />
       <Route path="/player/new/" component={Add} />
